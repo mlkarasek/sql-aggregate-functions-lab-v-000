@@ -1,13 +1,15 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks.
 
 def highest_student_gpa
-  "SELECT MAX(highest_student_gpa) FROM lib/students.rb;"
+  SELECT MAX highest_student_gpa FROM students;
 end
 
 def lowest_student_gpa
+  SELECT MIN lowest_student_gpa FROM students;
 end
 
 def average_student_gpa
+  SELECT AVG average_student_gpa FROM students;
 end
 
 def total_tardies_for_all_students
